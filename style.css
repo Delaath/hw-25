@@ -1,0 +1,36 @@
+.p-box{
+    display: flex;
+    position: relative;
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+}
+
+.c-box{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.c-box:nth-child(1){
+    background-color: rgb(194, 97, 97);
+    top: 20%;
+    left: 20%;
+    z-index: 1;
+}
+
+.c-box:nth-child(2){
+    background-color: rgb(15, 114, 196);
+    top: 35%;
+    left: 35%;
+    z-index: 3;
+}
+
+.c-box:nth-child(3){
+    background-color: rgb(15, 196, 97);
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+}
